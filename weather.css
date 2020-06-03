@@ -1,0 +1,113 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 25px auto;
+}
+
+.data-temp {
+    font-size: 46px;
+    color: white;
+    margin: 10px;
+}
+
+.city-name {
+    margin: 30px;
+    font-size: 30px;
+    color: #e6b016;
+}
+.data-main , .data-description{
+    color: white;
+    margin: 5px;
+}
+.container p {
+    height: 28px;
+    margin: 10px auto;
+    width: 98%;
+    background: #ee8105;
+    color: white;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.container:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(weather-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+    z-index: -1;
+}
+
+
+.table {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table table {
+    width: 75%;
+    margin: auto;
+}
+
+th ,
+td  {
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+
+}
+td {
+    color: #fd9903;
+}
+th {
+    color: white;
+}
+th i{
+    color: #fd9903;
+    font-size: 20px;
+}
+.button{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.btn-get{
+    outline: none;
+    display: block;
+    color: black;
+    font-weight: 500;
+    height: 50px;
+    width: 250px;
+    margin: auto;
+    border: none;
+    background-color: #ee8105;
+    border-radius: 5px;
+    font-size: 24px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+}
+footer p {
+    font-size: 15px;
+    padding: 14px;
+    margin: 0;
+}

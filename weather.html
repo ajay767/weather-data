@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Varela+Round&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather</title>
+</head>
+
+<body>
+ 
+    <div class="container">
+        <!-- <p>WEATHER REPORT by Webprozy</p> -->
+
+
+        <div class="data">
+            <span class="city-name">Waidhan </span>
+            <span class="data-temp"><span id="main-temp" class="data-temp">40</span>&degC</span>
+            <img id="img" src="" alt="">
+            <span class="data-main">Clouds</span>
+            <span class="data-description">overcast clouds</span>
+        </div>
+
+        <div class="table">
+            <table>
+                <tr>
+                    <th><i class="fas fa-compress-alt"></i> pressure</th>
+                    <td id="pressure">1008</td>
+                </tr>
+                <tr>
+                    <th><i  class="fas fa-temperature-high"></i> Temp-max</th>
+                    <td><span id="max-temp">27</span>&deg</td>
+                    <!-- <td id="max-temp">27.9&deg</td> -->
+                </tr>
+                <tr>
+                    <th><i  class="fas fa-temperature-low"></i> Temp-min</th>
+                    <td><span id="min-temp">27</span>&deg</td>
+                </tr>
+                <tr>
+                    <th><i class="fas fa-tint"></i> Humidity</th>
+                    <td id="humidity">48</td>
+                </tr>
+                <tr>
+                    <th><i  class="fas fa-wind"></i> Wind Speed </th>
+                    <td id="wind-speed">48</td>
+                </tr>
+            </table>
+           
+        </div>
+        <div class="button">
+            <button class="btn-get" onclick="weather()">Check Weather</button>
+
+        </div>
+    </div>
+
+  
+<footer>
+    <p>Copyright &copy 2020 WEBPROZY</p>
+</footer>
+<script src="application.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+</body>
+
+</html>
